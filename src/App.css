@@ -1,0 +1,32 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+}
+
+footer {
+  background-color: #f1f1f1;
+  color: #333;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+main {
+  padding: 20px;
+}
+
+.todo-item {
+  margin: 10px 0;
+}
+
+.todo-item.completed p {
+  text-decoration: line-through;
+  color: gray;
+}
